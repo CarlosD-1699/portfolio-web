@@ -5,6 +5,7 @@ import colorSharp2 from "../../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 import { ProjectCard } from "./ProjectCard";
 import "./Projects.css";
+import "animate.css";
 
 const Projects = () => {
   const projects = [
@@ -31,7 +32,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="proyectos">
       <Container>
         <Row>
           <Col size={12}>
