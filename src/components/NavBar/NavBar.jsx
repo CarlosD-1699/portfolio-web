@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/img/logo.svg";
 import navIcon1 from "../../assets/img/nav-icon1.svg";
-import navIcon2 from "../../assets/img/nav-icon2.svg";
+import navIcon4 from "../../assets/img/nav-icon4.svg";
 import navIcon3 from "../../assets/img/nav-icon3.svg";
 import "./NavBar.css";
 
@@ -72,14 +72,11 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/carlos-daniel-barbosa-950420275">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
-              </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="mailto:carlos.dbarbosa0716@gmail.com">
+                <img src={navIcon4} alt="" />
               </a>
             </div>
           </span>
