@@ -34,9 +34,9 @@ const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Estos son algunos de los lenguajes, librerias, frameworks y{" "}
+                <br />
+                herramientas que utilizo en el desarrollo Front-End
               </p>
               <div className="item-container">
                 <div className="item">

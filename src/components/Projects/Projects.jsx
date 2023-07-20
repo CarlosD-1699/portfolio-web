@@ -45,9 +45,8 @@ const Projects = () => {
                 >
                   <h2>Proyectos</h2>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Reiciendis accusamus deleniti cum quibusdam laboriosam
-                    accusantium blanditiis esse voluptas reprehenderit iure
+                    A continuación muestro algunos de los ultimos proyectos en
+                    los que he trabajado.
                   </p>
                   <Row>
                     {projects.map((project, index) => {

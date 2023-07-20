@@ -1,6 +1,7 @@
 /************ Footer Css ************/
 .footer {
-  padding: 50px 0 50px 0;
+  height: 280px;
+  padding: 50px 0 10px 0;
   background-image: url("../../assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
