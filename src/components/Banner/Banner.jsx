@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/img/header-img.svg";
-//import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import "./Banner.css";
 import "animate.css";
@@ -80,6 +80,11 @@ const Banner = () => {
                     <br /> me gusta dar lo mejor de mi en todo momento por mas
                     simple o complejo que pueda ser la tarea. <br /> A
                     continuación, verás los proyectos que he realizado.
+                    <a href="./Hoja_de_vida.pdf" download>
+                      <button>
+                        Descargar CV <ArrowRightCircle size={25} />
+                      </button>
+                    </a>
                   </p>
                 </div>
               )}
